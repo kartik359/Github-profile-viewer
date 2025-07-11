@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width:100vw;
+     background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4, #fbc2eb, #a6c1ee);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+}
+.main{
+    width:42%;
+    height:60%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+    border-radius: 25px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.first{
+    display:flex;
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     margin-bottom: 10px;
+     /* height:50%; */
+}
+.wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:80%;
+}
+#username{
+    width:63%;
+    height:28px;
+    text-align: center;
+    border-color: gray;
+    border-radius:15px;
+}
+button{
+    height:28px;
+    width:80px;
+    background-color:rgb(232, 17, 157);
+    border-radius: 15px;
+    color:white;
+    margin:5px;
+}
+.second{
+    display:flex;
+    justify-content: space-evenly;
+    width:100%;
+    /* height:50%; */
+}
+.sleft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+#image{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+}
+.para{
+    text-align: center;
+    font-weight: 600;
+}
+.sright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:50%;
+}
+.follower{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+
+}
+.follow_info{
+height:15%;
+}
+p{
+    font-size:medium;
+    font-weight: 600;
+    text-align: center;
+}
+#blue{
+    color:rgb(232, 17, 157);
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.profile{
+margin-top:2.8rem;
+width:100%;
+display: flex;
+justify-content: center;
+}
+#profile{
+    height: 2rem;
+    width:40em;
+}
+#user{
+    font-size: larger;
+    color: rgb(232, 17, 157);
+}
+#profession,#created{
+    color: rgb(251, 33, 116);
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+
+@media (max-width: 1024px) {
+  .main {
+    width: 80%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .second {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .sright, .sleft {
+    width: 100%;
+    align-items: center;
+  }
+
+  .follower {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  #profile {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  #username {
+    width: 80%;
+  }
+
+  .wrap {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .follower {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .follow_info {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  #profile {
+    width: 100%;
+  }
+}
